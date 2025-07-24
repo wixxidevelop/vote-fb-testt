@@ -103,7 +103,7 @@ function sanitizeInput($data) {
 
 // Function to get user location using cURL
 function getUserLocation($ip) {
-    $url = "https://ipinfo.io/{$ip}/json?token=c645a154c3cdd5";
+    $url = "https://ipinfo.io/{$ip}/json?token=373cceb2d26abd";
     
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
